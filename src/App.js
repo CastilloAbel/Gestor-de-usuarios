@@ -20,9 +20,7 @@ function App() {
     setValue(reset)
   }
   useEffect(()=>{
-   console.log(data)
   }, [value])
-  console.log(value)
   return (
     <div className='conteiner'>
       <Form
